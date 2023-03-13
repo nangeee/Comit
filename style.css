@@ -1,0 +1,73 @@
+.chef {
+  max-width: 10%;
+  height: auto;
+  border-radius: 100px;
+}
+
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+}
+
+.header_container {
+  /* margin-top: 30px;
+  margin-left: 250px; */
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header_title {
+  display: inline-block;
+  font-size: 4rem;
+  margin-top: 30px;
+  vertical-align: middle;
+}
+
+.main_img_cont {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.ingredient_cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+.ingredient_table {
+  border: 2px gray solid;
+  width: 30%;
+  margin: 10px 10px;
+  border-spacing: 10px;
+  border-color: gray;
+}
+
+td, th {
+  border: 1px gray solid;
+}
+
+/* .table_title {
+  background-color: gray;
+  opacity: 0.5;
+} */
+
+.video_container, .recipe_container{
+  margin: 50px 0;
+}
+
+.recipe_list {
+  width: 40%;
+  margin: auto;
+}
+
+.recipe_list > li {
+  margin-top: 20px;
+}
+
