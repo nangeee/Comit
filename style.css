@@ -65,6 +65,7 @@ td, th {
 .recipe_list {
   width: 40%;
   margin: auto;
+  text-align: left;
 }
 
 .recipe_list > li {
