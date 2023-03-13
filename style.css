@@ -36,6 +36,7 @@ h1 {
 
 .ingredient_cont {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
 }
@@ -45,7 +46,7 @@ h1 {
   border: 2px gray solid;
   width: 30%;
   margin: 10px 10px;
-  border-spacing: 10px;
+  /* border-spacing: 10px; */
   border-color: gray;
 }
 
@@ -53,10 +54,9 @@ td, th {
   border: 1px gray solid;
 }
 
-/* .table_title {
-  background-color: gray;
-  opacity: 0.5;
-} */
+.table_title {
+  width: 30%;
+}
 
 .video_container, .recipe_container{
   margin: 50px 0;
