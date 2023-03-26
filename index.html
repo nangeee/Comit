@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="static/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="SHORTCUT ICON" type="image/ico" href="static/images/baek.jpg">
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
   integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
@@ -17,9 +18,16 @@
   <header>
     <div class="header_container">
       <img class="chef" src="static/images/baek.jpg" alt="백종원">
-      <span class="header_title">백종원의 김치밥이 피오씁니다</span>
+      <a href="./index.html"><span class="header_title">백종원의 김치밥이 피오씁니다</span></a>
+      <img class="chef2" src="static/images/po.jpg" alt="피오">
     </div>
   </header>
+
+  <nav>
+    <a class="nav_item" href="#ingredient_title">🍽️재료</a>
+    <a class="nav_item" href="#video_container">🧑‍🍳동영상</a>
+    <a class="nav_item" href="#recipe_title">📝레시피</a>
+  </nav>
 
   <hr>
 
@@ -28,7 +36,7 @@
   <hr>
 
   <div class="ingredient_cont">
-    <h1 class="ingredient_title">🍽️ 재료</h1>
+    <h1 id="ingredient_title" class="ingredient_title">🍽️ 재료</h1>
     <h2 class="table_title">필수 재료</h2>
     <h2 class="table_title">양념 재료</h2>
     <h2 class="table_title">곁들임 재료</h2>
@@ -78,7 +86,7 @@
 
   <hr>
 
-  <div class="video_container">
+  <div id="video_container" class="video_container">
     <h1>🧑‍🍳 동영상</h1>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/R6IT_f0XPT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
@@ -86,8 +94,8 @@
   <hr>
 
   <div class="recipe_container">
-    <h1>📝 레시피</h1>
     <div class="recipe_inner_container">
+      <h1 id="recipe_title">📝 레시피</h1>
       <ol class="recipe_list">
         <li>대파는 송송 썬 후 달군 팬에 식용유를 넉넉히 두르고 대파를 넣어 볶는다.</li>
         <li>파향이 나오면 다진 김치를 넣어 볶는다.</li>
