@@ -11,10 +11,13 @@
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
   integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
   crossorigin="anonymous"></script>
-  <script type="text/javascript" src="static/javascript.js"></script>
 </head>
 
 <body>
+  <div class="dark_mode_container">
+    <input class="dark_mode_btn" type="image" src="static/images/sun.png"></input>
+  </div>
+
   <header>
     <div class="header_container">
       <img class="chef" src="static/images/baek.jpg" alt="백종원">
@@ -27,15 +30,17 @@
     <a class="nav_item" href="#ingredient_title">🍽️재료</a>
     <a class="nav_item" href="#video_container">🧑‍🍳동영상</a>
     <a class="nav_item" href="#recipe_title">📝레시피</a>
+    <a class="nav_item" href="about.html">🎁about</a>
+    <a class="nav_item" href="gallery.html">🎞️gallery</a>
   </nav>
 
   <hr>
 
-  <div class="main_img_cont"><img src="static/images/img1.png"></div>
+  <div class="main_img_container"><img src="static/images/img1.png"></div>
 
   <hr>
 
-  <div class="ingredient_cont">
+  <div class="ingredient_container">
     <h1 id="ingredient_title" class="ingredient_title">🍽️ 재료</h1>
     <h2 class="table_title">필수 재료</h2>
     <h2 class="table_title">양념 재료</h2>
@@ -108,6 +113,14 @@
       </ol>
     </div>
   </div>
+
+  <hr>
+
+  <div class="footer_container">
+    <p class="footer">Copyright © 2023 Nayoung Kim. All rights reserved.</p>
+  </div>
+
+  <script type="text/javascript" src="static/javascript1.js"></script>
   
 </body>
 
